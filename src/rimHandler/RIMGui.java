@@ -94,7 +94,6 @@ public class RIMGui {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-	//	frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\dwilson1\\Pictures\\DLogo.PNG"));
 		frame.setBounds(optionPage.x, optionPage.y, 833, 418);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);

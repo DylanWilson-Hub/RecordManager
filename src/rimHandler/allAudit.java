@@ -126,7 +126,6 @@ public class allAudit {
 	}
   static void initialize() {
 		frame = new JFrame();
-	//	frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\dwilson1\\Pictures\\DLogo.PNG"));
 		
 		
 		

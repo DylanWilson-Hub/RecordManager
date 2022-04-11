@@ -126,7 +126,6 @@ public class RimAudit {
 	}
   static void initialize() {
 		frame = new JFrame();
-		//frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\dwilson1\\Pictures\\DLogo.PNG"));
 		
 		if (allAudit.value != null) {
 			frame.setBounds(allAudit.x, allAudit.y, 1436, 544);

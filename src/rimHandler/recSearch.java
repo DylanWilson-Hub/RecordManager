@@ -117,7 +117,6 @@ public class recSearch {
 	}
   static void initialize() {
 		frame = new JFrame();
-	//	frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\dwilson1\\Pictures\\DLogo.PNG"));
 		frame.setBounds(searchGUI.x, searchGUI.y, 860, 449);
 		frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		frame.getContentPane().setLayout(null);

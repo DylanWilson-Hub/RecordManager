@@ -69,7 +69,7 @@ public class RimAdmin {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-	//	frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\dwilson1\\Pictures\\DLogo.PNG"));
+
 		frame.setBounds(optionPage.x, optionPage.y, 540, 417);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);

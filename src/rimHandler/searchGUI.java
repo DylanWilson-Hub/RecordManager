@@ -95,7 +95,7 @@ public class searchGUI {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		//frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\dwilson1\\Pictures\\DLogo.PNG"));
+
 		
 		if (batchSearch.value != null ) {
 			frame.setBounds(batchSearch.x, batchSearch.y, 850, 473);

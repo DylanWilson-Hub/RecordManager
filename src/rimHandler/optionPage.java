@@ -68,7 +68,6 @@ public class optionPage {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-	//	frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\dwilson1\\OneDrive - Diamondback Energy\\Pictures\\DLogo.PNG"));
 		
 		if (RIMGui.value !=null) {
 			frame.setBounds(RIMGui.x, RIMGui.y, 250,322); 

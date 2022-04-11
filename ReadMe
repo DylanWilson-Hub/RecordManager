@@ -1,0 +1,9 @@
+This application is meant to track the whereabouts of records. It stores these records in an SQL server, this version utilizes UCanAccess and MC Access (Easy for development sake. Updating to a MySql server is easy, just replace the connection and import the correct libraries. 
+
+Core functions are inputting, deleting, updating, batch updating, batch deleting & batch searching. 
+
+There are options to create three different users, Admin, User, Viewer. Each have their respective permssions, ie creating users, updating records, or simply just searching. 
+
+Records are able to be requested, which sends an email prompt to the record manager for their decision. If approved it prompts the requestor, then the system assigns the records new location, keeping track of exactly where it is at and who has it, it also tracks the date it should be returned.
+
+Future things i'd like to add are a retention tracker. Currently theres a field for stating whether or not there is a legal hold, but this doesn't do anything currently. I plan on adding a field when inputting the record called 'Record Code'. I'd then program it to where it automatically calculates the destruction date/date for review. 

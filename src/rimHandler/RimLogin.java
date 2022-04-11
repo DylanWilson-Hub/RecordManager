@@ -63,7 +63,6 @@ public class RimLogin {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-	//	frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\dwilson1\\Pictures\\DLogo.PNG"));
 		
 		if (optionPage.value != null) {
 		frame.setBounds(optionPage.x, optionPage.y, 250, 294);

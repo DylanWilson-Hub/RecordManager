@@ -1,5 +1,5 @@
 
-/* Created by Dylan Wilson for Diamondback Energy. */
+/* Created by Dylan Wilson */
 
 package rimHandler;
  
@@ -64,7 +64,7 @@ public static String GlobalID;
 	    	 
 	         // connect to database
 	         Connection connection = DriverManager.getConnection(
-	 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+	 	            "");
 		
 	         // Pull the ID for that name
 	       
@@ -198,7 +198,7 @@ public static String GlobalID;
 			
 			         // connect to database
 			         Connection connection = DriverManager.getConnection(
-				 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+				 	             "");
 			        
 
 			         // Pull the ID for that name
@@ -360,7 +360,7 @@ public static String GlobalID;
 				
 				         // connect to database
 				         Connection connection = DriverManager.getConnection(
-					 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+					 	             "");
 				        
 
 				         // Pull the ID for that name
@@ -679,7 +679,7 @@ public static String GlobalID;
 			
 			         // connect to database
 			         Connection connection = DriverManager.getConnection(
-				 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+				 	            "");
 			        
 
 			         // Pull the ID for that name
@@ -860,7 +860,7 @@ public static void btchSearch(String searchKeySel, String searchKey) {
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	             "");
 		        
 
 		         if (searchKeySel.equals("ALL RECORDS")) {
@@ -1071,7 +1071,7 @@ public static void btchUpdate(ArrayList<String> data) throws Exception {
 			
 			         // connect to database
 			         Connection connection = DriverManager.getConnection(
-				 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+				 	             "");
 			         
 			       Object[] dataString = data.toArray();
 			  //     Object OG;
@@ -1464,7 +1464,7 @@ public static void btchDelete(String user, int rowCount) throws Exception {
 			
 			         // connect to database
 			         Connection connection = DriverManager.getConnection(
-				 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+				 	             "");
 			       
 			       
 			        String barcode1 = user;
@@ -1628,7 +1628,7 @@ public static void login(String user, String pass) {
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	          "");
 		        
 
 		         // Pull the ID for that name
@@ -1744,7 +1744,7 @@ public static void admin(String user, String pass) {
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	          "");
 		        
 
 		         // Pull the ID for that name
@@ -1851,7 +1851,7 @@ public static void adminInsert(String user, String pass, String level, String em
 
          // connect to database
          Connection connection = DriverManager.getConnection(
- 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+ 	           "");
 	
          
 
@@ -1951,7 +1951,7 @@ public static void adminSearch(String user) {
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	          "");
 		        
 
 		         // Pull the ID for that name
@@ -2084,7 +2084,7 @@ public static void adminDelete(String user) {
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	        "");
 		        
 
 		         // Pull the ID for that name
@@ -2169,7 +2169,7 @@ public static void adminUpdate(String user, String pass, String level, String em
 			
 			         // connect to database
 			         Connection connection = DriverManager.getConnection(
-				 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+				 	            "");
 			        
 
 			         // Pull the ID for that name
@@ -2357,7 +2357,7 @@ public static void auditSearch(String searchKeySel, String searchKey, String use
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	            "");
 		        
 
 		         if (searchKeySel.equals("ALL RECORDS")) {
@@ -2575,7 +2575,7 @@ public static void auditSearch(String searchKeySel, String searchKey, String use
 
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	             "");
 		        
 
 		         if (1==1) {
@@ -2791,7 +2791,7 @@ public static void auditClear(String user1, String pass1, String level1) {
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	           "");
 		        
 
 		         // Pull the ID for that name
@@ -2862,7 +2862,7 @@ public static void audDelRow(String user) throws Exception {
 			
 			         // connect to database
 			         Connection connection = DriverManager.getConnection(
-				 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+				 	            "");
 			       
 			       
 			        String barcode1 = user;
@@ -2951,7 +2951,7 @@ public static void reqSave(String user, int rowCount) throws Exception {
 			
 			         // connect to database
 			         Connection connection = DriverManager.getConnection(
-				 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+				 	           "");
 			       
 			       
 			        String barcode1 = user;
@@ -3040,7 +3040,7 @@ public static void recSearch(ArrayList<String> IDList) {
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	          "");
 		         
 		         // Pull the ID for that name
 		     
@@ -3142,11 +3142,11 @@ public static void recSearch(ArrayList<String> IDList) {
 public static void emailManager(String email, String dOut, String dRet, String loc) throws SQLException, ClassNotFoundException, ParseException {
 	
 	// Sender's email ID needs to be mentioned
-    String username = "DWTesting1999@gmail.com";
-    String password ="Testing1999!"; //BOT email, only sending username and requested barcode value, 
+    String username = "";
+    String password =""; //BOT email, only sending username and requested barcode value, 
     
    // Recipient's email ID needs to be mentioned.
-  String to = "DWTesting1999@gmail.com";
+  String to = "";
 
   String host = "smtp.gmail.com";
 
@@ -3378,7 +3378,7 @@ public static void emailManager(String email, String dOut, String dRet, String l
 	    	 
 	         // connect to database
 	         Connection connection = DriverManager.getConnection(
-	 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+	 	             "");
 		
 	         // Pull the ID for that name
 	       
@@ -3469,7 +3469,7 @@ public static void reqGUI(String searchKeySel, String user1, String pass1, Strin
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	            "");
 		        
 
 		         if (searchKeySel.equals("ALL RECORDS")) {
@@ -3678,7 +3678,7 @@ public static void reqClear(String user1, String pass1, String level1) {
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
+			 	            "");
 		        
 
 		         // Pull the ID for that name
@@ -3751,8 +3751,7 @@ public static void reqStat(Object barcode, String Status) {
 		
 		         // connect to database
 		         Connection connection = DriverManager.getConnection(
-			 	            "jdbc:ucanaccess://X:\\RIM Compliance\\Records Inventory Program\\Database\\RIMRecordsDatabase.accdb");
-		        
+			 	            "");
 		         Statement stmt1 = null;
 		         stmt1 = connection.createStatement();
 		         String query3 = "SELECT ID, Username FROM Requests WHERE Barcode = "+
@@ -3831,8 +3830,8 @@ public static void reqStat(Object barcode, String Status) {
 public static void responseEmail(String user, String barcode, String Status, String email) throws SQLException, ClassNotFoundException, ParseException {
 	
 	// Sender's email ID needs to be mentioned
-    String username = "DWTesting1999@gmail.com";
-    String password ="Testing1999!"; //BOT email, only sending username and requested barcode value, 
+    String username = "";
+    String password =""; //BOT email, only sending username and requested barcode value, 
     
    // Recipient's email ID needs to be mentioned.
     
